@@ -11,6 +11,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "strict": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "types": ["node"]
   },
   "include": ["**/*.ts", "**/*.tsx"]
